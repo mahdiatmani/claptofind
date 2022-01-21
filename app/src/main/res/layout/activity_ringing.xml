@@ -5,21 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ringing">
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="718dp"
-        android:layout_height="635dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/des"
-        tools:layout_editor_absoluteX="-93dp"
-        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"></TextView>
 
     <ImageView
         android:id="@+id/stopimage"
         android:layout_width="177dp"
         android:layout_height="215dp"
+        android:onClick="stopAndBack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"

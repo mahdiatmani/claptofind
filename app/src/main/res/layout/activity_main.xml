@@ -12,7 +12,6 @@
         android:layout_width="322dp"
         android:layout_height="404dp"
         android:src="@drawable/makeitclap"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +27,6 @@
         android:layout_marginBottom="48dp"
         android:rotation="40"
         android:src="@drawable/phonecall"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,16 +40,16 @@
         android:layout_width="109dp"
         android:layout_height="51dp"
         android:text="OFF"
+        android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.827" />
-
-    <TextView
+ <TextView
         android:layout_below="@id/gif2"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView"
+        android:id="@+id/googleSpeech"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TURN ON THE CLAP FINDER"
@@ -74,5 +72,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Button
+        android:id="@+id/Speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Speak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </RelativeLayout>
